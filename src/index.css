@@ -271,7 +271,7 @@ body {
   position: relative;
 }
 .veri{
-  font-family: unset;
+  font-family:inherit;
   font-size: 1rem;
   color:black;
   margin-right: 3.5rem;
