@@ -2,11 +2,7 @@
 body {
   height: 100vh;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+ 
 }
 
 
@@ -97,7 +93,7 @@ body {
 }
 .hi p{
   font-size: .93rem;
-  font-family: unset;
+  font-family: Mv Boli;
 
 }
 .flax {
@@ -112,9 +108,11 @@ body {
   
 }
 .flax h4{
+  font-family: MV Boli;
   font-size: 1.5rem;
 }
 .flax p{
+  font-family: MV Boli;
     font-size: 1.1rem;
     margin-top: -1rem;
     color: hsl(0, 0%, 30%);
@@ -321,7 +319,7 @@ body {
     width: 93%;
     right: rem;
     left: 2.9rem;
-    height: 39%;
+    height: 47%;
     position: absolute;
    
     border-radius: 6px;
