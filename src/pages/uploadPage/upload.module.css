@@ -1,0 +1,130 @@
+body{
+    height: 100vh;
+}
+
+.header{
+    display: flex;
+   justify-content: center;
+    margin-top: 2rem;
+    
+}
+
+.input{
+    font-size: .8rem;
+    margin-bottom: 1.4rem;
+    padding: .38rem -6rem .5rem .8rem;
+    border: 1px solid gray;
+
+    border-radius: 7px;
+}
+::-webkit-file-upload-button{
+    font-size: .86rem;
+    padding: .5rem .8rem .5rem .8rem;
+    border-radius: 3px;
+    margin-right: 1.4rem;
+    border: none;
+    color: white;
+    background-color: hsl(240, 10%, 27%);
+}
+h2{
+    margin-left: 1rem;
+    
+}
+.btn{
+    font-size: .87rem;
+    padding: .5rem .8rem .5rem .8rem;
+    border-radius: 6px;
+    
+    margin-left: 3.7rem;
+    border: none;
+    color: white;
+    background-color: hsl(240, 10%, 27%);
+}
+.delete{
+    font-size: .87rem;
+    padding: .5rem .8rem .5rem .8rem;
+    border-radius: 6px;
+    
+    
+    top: rem;
+    border: none;
+    color: white;
+   
+}
+
+.grid{
+    display:grid ;
+    grid-template-columns:repeat(auto-fit, 123px);
+  
+    gap:2.3rem;
+    justify-content: start;
+    margin-top: 8px;
+}
+
+.card{
+    background-color: hsl(0, 0%, 80%);
+    padding: .2rem 1.4rem .5rem .5rem;
+    padding-top: -1rem;
+    margin-top: 3rem;
+    margin-bottom: -3.2rem;
+    width: 7.3rem;
+    margin-left: .6rem;
+    border-radius: 4px;
+}
+.img{
+    border-radius: 4px;
+        margin-left: -2rem;
+    
+    
+    
+}
+
+.title{
+    font-size: .7rem;
+    margin-right: .5rem;
+    
+}
+.create{
+    font-size: .7rem;
+    margin-top: -.7rem;
+    margin-right: .5rem;
+    
+}
+.body{
+    border-radius: 5px;
+
+   
+}
+.actions{
+    display: flex;
+    justify-content: end;
+}
+.btn2{
+    font-size: .7rem;
+    padding: .4rem .7rem .4rem .7rem;
+    border-radius: 7px;
+    margin-top: -2rem;
+    margin-left: 3rem;
+    border: none;
+    background-color: hsl(0, 0%, 90%);
+}
+
+
+@media(min-width:50em) {
+    .header{
+        display: grid;
+        justify-content: center;
+        margin-left: 2rem;
+    }
+    .grid{
+        display:grid ;
+        grid-template-columns:repeat(4, 150px);
+      
+        gap:2.3rem;
+        justify-content: start;
+        margin-top: 8px;
+    }
+    .card{
+        margin-left: 2rem;
+    }
+}

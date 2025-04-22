@@ -1,0 +1,119 @@
+
+
+
+
+
+
+.mobile{
+    position:fixed;
+    top: 1%;
+
+}
+
+
+.bar{
+    background-color: hsl(224, 44%, 79%);
+    height:100vh;
+    width: 18rem;
+    border-radius: 5px;
+    display: none;
+}
+
+
+.section{
+    display: flex;
+    justify-content: end;
+    margin-bottom: 4rem;
+    margin-right: 2rem;
+
+    
+
+}
+
+.name{
+    margin-left: .5em;
+    margin-top: .5rem;
+    font-size: .87rem;
+    color:hsl(0, 0%, 0%);
+    margin-top:1.2rem;
+    border: none;
+    border-radius: 3px;
+    padding-right: .7em;
+    padding-left: .7rem;
+    padding-top: .2rem;
+    padding-bottom: .2rem;
+    font-family: MV Boli;
+    cursor: pointer;
+}
+.img{
+    margin-left: .7rem;
+    margin-top: .7rem;
+}
+.close{
+    margin-left: 1.6rem;
+    position: relative;
+    top: 3rem;
+}
+
+a{
+    text-decoration: none;
+    padding-bottom: 1rem;
+    color: black;
+    margin-bottom: 10rem;
+}
+.home{
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+}
+.banks{
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+}
+.history{
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+}
+.transfer{
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+}
+.homeimg{
+    margin-bottom: -.3rem;
+    margin-right: .7rem;
+}
+.bank{
+    margin-bottom: -.3rem;
+    margin-right: .7rem;
+}
+.historys{
+    margin-bottom: -.3rem;
+    margin-right: .7rem;
+}
+.transfers{
+    margin-bottom: -.3rem;
+    margin-right: .7rem;
+    
+}
+.homelink{
+    margin-left: .2rem;
+    font-size: .88rem;
+}
+.banklink{
+    margin-left: .5rem;
+    font-size: .88rem;
+}
+.historylink{
+    margin-left: .5rem;
+    font-size: .88rem;
+}
+.transferlink{
+    margin-left: .5rem;
+    font-size: .88rem;
+}
+
+@media(max-width:50em){
+    .bar{
+        display: block;
+
+    }
+}

@@ -1,0 +1,336 @@
+
+body {
+  height: 100vh;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+.wrapper{
+
+  display: flex;
+  
+  
+  
+  
+}
+
+.flex{
+  display: flex;
+
+ justify-content: space-between;
+}
+
+
+.wrapp{
+  display: flex;
+  margin-right: 2rem;
+  margin-bottom: 3rem;
+
+  margin-top: 1rem;
+
+}
+
+
+.home-header{
+ 
+  margin-left: 2rem;
+  margin-top: .7rem;
+  font-size: 1rem;
+  
+}
+.headerbox{
+  font-size: 1.5rem;
+}
+.name{
+  margin-left: 1rem;
+
+  color: hsl(210, 54%, 49%);
+}
+.subtext{
+  font-size: .93rem;
+  font-weight: 379;
+}
+
+.links{
+  font-size: 1.5rem;
+  margin-left: 1.5rem;
+  margin-top: 1rem;
+
+
+
+}
+.active{
+  background-color: antiquewhite;
+  border-radius: 6px;
+  padding: .5rem 1.6rem .5rem 1.5rem;
+  margin-right: .7rem;
+
+}
+
+.mobilenav{
+  display: none;
+}
+.navbar{
+  margin-top: -3rem;
+  margin-left: 1rem;
+  position: relative;
+  top:.3rem;
+  
+}
+.signin{
+  display: flex;
+  justify-content: center;
+  margin-left: 4rem;
+
+}
+.hey{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.9rem;
+  margin-left: 1.8rem;
+}
+.hi p{
+  font-size: .93rem;
+  font-family: MV Boli;
+
+}
+.flax {
+  margin-top: -1rem;
+  font-family: MV Boli;
+  font-size: 1.9rem;
+  display: flex;
+  flex-direction: column;
+  display: grid;
+    gap: 9px;
+    grid-template-columns: repeat(aut-fit, 150px);
+  
+}
+.flax h4{
+  font-size: 1.5rem;
+}
+.flax p{
+    font-size: 1.1rem;
+    margin-top: -1rem;
+    color: hsl(0, 0%, 30%);
+}
+.foot{
+  margin-top: 4rem;
+  
+  font-family: MV Boli;
+
+  
+}
+.foot h4{
+  font-size: 1.3rem;
+  color: hsl(240, 100%, 17%);
+}
+.foot p{
+  font-size: 1.1rem;
+}
+.foot p span{
+  font-size: 2rem;
+}
+
+.correct{
+  background: #dffff2;
+  border-color: #00d397;
+
+}
+.wrong{
+  background: #FFEBEB;
+  border-color: #FF4A4A;
+}
+.size{
+ width: 1285%;
+  right: rem;
+  left: rem;
+  height: 1239%;
+  position: relative;
+ 
+  border-radius: 6px;
+  display: grid;
+  padding-right: 1.5rem;
+  justify-self: center;
+ 
+}
+.sized{
+  width: 52%;
+  right: 8rem;
+  
+  height: 22%;
+  position: absolute;
+ 
+  border-radius: 4px;
+  display: grid;
+  
+  justify-self: center;
+  background: hsl(210, 80%, 89%); 
+}
+
+#uploadbtn2{
+  font-size: .7rem;
+  padding: .4rem .7rem .4rem .7rem;
+  border-radius: 7px;
+  margin-top: -2rem;
+  margin-left: 3rem;
+  border: none;
+  background-color: hsl(0, 0%, 90%);
+}
+#uploadcard{
+  background-color: hsl(0, 0%, 80%);
+  padding: .2rem 1.4rem .5rem .5rem;
+  padding-top: -1rem;
+  margin-top: 3rem;
+  margin-bottom: -3.2rem;
+  width: 7.3rem;
+  margin-left: .6rem;
+  border-radius: 4px;
+  height: 15rem;
+  margin-bottom: rem;
+}
+#uploadimg{
+  border-radius: 4px;
+  margin-left: -2rem;
+  
+}
+#uploadgrid{
+  display:grid ;
+  grid-template-columns:repeat(auto-fit, 123px);
+
+  gap:2.3rem;
+  justify-content: start;
+  margin-top: 8px;
+
+}
+#delet{
+     font-size: .87rem;
+    padding: .5rem .8rem .5rem .8rem;
+    border-radius: 6px;
+    
+    position: ;
+    top: rem;
+    border: none;
+    color: white;
+}
+#actions{
+  display: flex;
+  justify-content: end;
+}
+
+@media(min-width:50em) {
+  .header{
+      display: grid;
+      justify-content: center;
+      margin-left: 2rem;
+  }
+  #uploadgrid{
+      display:grid ;
+      grid-template-columns:repeat(4, 150px);
+    
+      gap:2.3rem;
+      justify-content: start;
+      margin-top: 8px;
+  }
+  #uploadcard{
+      margin-left: 2rem;
+  }
+}
+@media(max-width:65em){
+  .flex{
+    display: flex;
+      justify-content: space-between;
+  }
+}
+
+
+@media(max-width:50em){
+
+.App{
+  display:block;
+}
+
+
+.wrapper{
+  
+  display: block;
+}
+  .wrapp{
+  margin-left: -.4rem;
+  overflow: hidden;
+  
+}
+
+.flex{
+  display: block;
+}
+.layout{
+  position: relative;
+}
+.veri{
+  font-family: MV Boli;
+  font-size: 1rem;
+  color:black;
+  margin-right: 3.5rem;
+  margin-top: 1.2rem;
+  margin-bottom: -3.5rem;
+  position: relative;
+  top:1.4rem
+}
+  .mobilenav{
+    background-color: hsl(220, 35%, 100%);
+    padding: 1rem;
+  
+    font-size: 3rem;
+    display: block;
+    border-radius: 5px;
+   
+  
+    
+  }
+  .logos{
+    background: hsl(0, 0%, 80%);
+    border-radius: 2rem;
+    margin-top: 1.5rem;
+    margin-left: 3.5rem;
+  }
+
+  .nav{
+    display: flex;
+    justify-content: space-between;
+  }
+  .navbar{
+    margin-top: .8rem;
+  }
+  .mubible{
+    
+    display: none;
+    position: relative;
+    
+    
+  }
+  .signin{
+    margin-left: .1rem;
+  }
+  .size{
+    width: 93%;
+    right: rem;
+    left: 2.9rem;
+    height: 39%;
+    position: absolute;
+   
+    border-radius: 6px;
+    display: grid;
+    padding-right: 1.5rem;
+    justify-self: center;
+
+  }
+
+ 
+
+}

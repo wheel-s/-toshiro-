@@ -1,0 +1,61 @@
+
+
+
+.visa{
+    
+    height: 4rem;
+    position: relative;
+    top:3rem;
+    left: 2rem;
+    padding: 2rem 4rem 4rem 2rem ;
+    width: 7rem;
+    border-radius: 1rem;
+    border:1.3px solid white;
+    background: linear-gradient(#0179FE , #4893FF );
+}
+.name{
+    font-size: .9rem;
+    color:white;
+    margin-top: -1.4rem;
+    margin-right: 1rem;
+}
+
+.balance{
+    color: white;
+    margin-top: -.3rem;
+    font-size: .95rem;
+    font-weight: 500;
+}
+.numbers{
+    margin-top: -3.4rem;
+}
+.number{
+    display: flex;
+    margin-top: 2.6rem;
+    justify-content: space-around;
+}
+.user{
+    font-size: .8rem;
+    color: white;
+    
+    
+}
+.flax{
+    position: relative;
+    top:-3.5rem;
+    left: 7.4rem;
+    rotate: 90deg;
+}
+.slash{
+    font-size: 1rem;
+    font-weight: 750;
+    color: white; 
+    position: relative;
+    left: 30%;
+}
+.star{
+    color: white;
+    margin-top: -.5rem;
+    font-size: 1rem;
+    font-weight: 800;
+}

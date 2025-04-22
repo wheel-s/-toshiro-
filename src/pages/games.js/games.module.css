@@ -1,0 +1,104 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.section{
+    margin-top: 1rem;
+    margin-left:rem;
+    border-radius: 4px;
+  
+  
+}
+.details{
+    color:#B9c6DC;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+    height: 1rem;
+    background: hsl(218, 27%, 22%);
+    width: 14rem;
+    padding: .9rem;
+    padding-top: .7rem;
+    border-radius: 3px;
+    padding-left: -7rem;
+    padding-right: -7rem;
+}
+.board{
+    background: white;
+    border: steelblue 2px solid;
+    border-radius: 3.4px;
+    
+   
+
+}
+.food{
+    background: darkred;
+}
+.reset{
+    font-size: .87rem;
+    padding: .5rem .8rem .5rem .8rem;
+    border-radius: 6px;
+    margin-top: .7rem;
+    margin-left: 4.7rem;
+    border: none;
+    color: white;
+    background-color: hsl(240, 10%, 27%);
+
+
+}
+.move{
+ display: grid;
+ grid-template-columns: repeat(2, 59px);
+ gap: .4rem;
+}
+.move button {
+    font-size: .87rem;
+    padding: .5rem .8rem .5rem .8rem;
+    border-radius: 6px;
+    height: 3rem;
+    margin-top: rem;
+    margin-left:1rem;
+    border: none;
+    color: white;
+    background-color: hsl(240, 10%, 37%);
+    width: 3.3rem;
+    margin-left: 3rem;
+    margin-top: rem;
+}
+.up{
+    margin-top: 1rem;
+    
+    margin-right: rem;
+}
+.left{
+    margin-top: 1rem;
+    
+    margin-left:2rem;
+}
+.right{
+    margin-top: .1rem;
+    
+    margin-left: rem;
+}
+.dow{
+    margin-top: .1rem;
+
+   margin-left:0rem;
+}
+@media(min-width:50rem){
+        .section{
+            margin-left: 4rem;
+            margin-top: 4rem;
+            width: 65vh;
+            height: 70vh;
+        }
+
+        .details{
+            width:14rem;
+            
+
+        }
+       
+}

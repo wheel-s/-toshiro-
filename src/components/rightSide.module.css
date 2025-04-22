@@ -1,0 +1,123 @@
+
+
+
+.wrappe{
+ 
+        display: flex;
+        justify-content: flex-end;
+}
+
+.wrapper{
+    
+   
+    top:-.8rem;
+    background-color: hsl(0, 0%, 95%);
+    height: 200vh;
+    width: 20rem;
+    border-radius: 4px;
+    
+
+    overflow: hidden;
+    
+}
+
+.wrapp{
+    height: 500vh;
+    width: 20rem;
+    border-radius: 4px;
+    
+    overflow: hidden;
+}
+
+.img{
+    background:linear-gradient( hsl(220, 60%, 76%), hsl(300, 50%, 75%));
+    padding: 4rem;
+    border-radius: 4px;
+}
+.pic{
+    background:hsl(0, 0%, 90%);
+    padding: 1.3rem;
+    width: 2.3rem;
+    border-radius: 65%;
+    height: 2.6rem;
+    margin-left: 1.4rem;
+    color: hsl(220, 24%, 26%);
+    position: relative;
+    top:-1.5rem
+}
+.letter{
+    font-size: 2rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    right: .64rem;
+    background: hsl(0, 0%, 80%);
+    border-radius: 50%;
+    padding: .7rem 1.2rem .7rem 1.2rem;
+    max-height: 0rem;
+    max-width: 10rem;
+}
+
+.info{
+    margin-top: -1.4rem;
+    margin-left: 1.7rem;
+    font-size: .8rem;
+    color: hsl(180, 20%, 27%);
+}
+h2{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.email{
+    margin-top: -1rem;
+    font-size: .85rem;
+}
+.banks{
+    margin-top: 2rem;
+    color: hsl(300, 10%, 15%);
+}
+.flex{
+    display: flex;
+    
+    justify-content: space-between;
+}
+.my{
+    margin-left: 1.1rem;
+    font-weight: 500;
+    font-size: 1rem;
+}
+.add{
+    margin-right: 1rem;
+    font-size: .9rem;
+    display: flex;
+}
+.plus{
+    margin-top: 1rem;
+    margin-right:.7rem;
+}
+
+
+.card2{
+        position: relative;
+        top: -12rem;
+        left: 3rem;
+        
+}
+
+@media(max-width:65em){
+    .wrapper{
+        display: none;
+        
+    }
+}
+
+
+
+
+
+
+@media(min-width:82em){
+    .wrapper{
+        margin-left: 12rem;
+        
+    }
+}
