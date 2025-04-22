@@ -93,7 +93,7 @@ body {
 }
 .hi p{
   font-size: .93rem;
-  font-family: Mv Boli;
+  font-family: 'Mv Boli';
 
 }
 .flax {
@@ -108,7 +108,7 @@ body {
   
 }
 .flax h4{
-  font-family: MV Boli;
+  font-family: 'MV Boli';
   font-size: 1.5rem;
 }
 .flax p{
@@ -120,7 +120,7 @@ body {
 .foot{
   margin-top: 4rem;
   
-  font-family: MV Boli;
+  font-family:' MV Boli';
 
   
 }
@@ -271,7 +271,7 @@ body {
   position: relative;
 }
 .veri{
-  font-family:inherit;
+  font-family:'MV Boli';
   font-size: 1rem;
   color:black;
   margin-right: 3.5rem;

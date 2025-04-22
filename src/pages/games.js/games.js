@@ -290,7 +290,7 @@ const Games = () => {
               <button  className={games.left } onClick={moveLeft}>Left</button>
               <button className={games.up} onClick={ moveUp}>Up</button>
               <button className={games.dow} onClick={moveDown}>down</button> 
-              <button className={games.right} onClick={moveRight}>rigt</button>
+              <button className={games.right} onClick={moveRight}>right</button>
               
             </div>
       </div>
