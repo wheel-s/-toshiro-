@@ -5,7 +5,7 @@
 }
 
 .section{
-    margin-top: 1rem;
+    margin-top: 1.9rem;
     margin-left:rem;
     border-radius: 4px;
   
@@ -20,6 +20,7 @@
     background: hsl(218, 27%, 22%);
     width: 14rem;
     padding: .9rem;
+    height: 1.5rem;
     padding-top: .7rem;
     border-radius: 3px;
     padding-left: -7rem;

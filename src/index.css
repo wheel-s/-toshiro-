@@ -97,12 +97,12 @@ body {
 }
 .hi p{
   font-size: .93rem;
-  font-family: MV Boli;
+  font-family: unset;
 
 }
 .flax {
   margin-top: -1rem;
-  font-family: MV Boli;
+  font-family: unset;
   font-size: 1.9rem;
   display: flex;
   flex-direction: column;
@@ -213,7 +213,7 @@ body {
     padding: .5rem .8rem .5rem .8rem;
     border-radius: 6px;
     
-    position: ;
+
     top: rem;
     border: none;
     color: white;
@@ -273,7 +273,7 @@ body {
   position: relative;
 }
 .veri{
-  font-family: MV Boli;
+  font-family: unset;
   font-size: 1rem;
   color:black;
   margin-right: 3.5rem;
