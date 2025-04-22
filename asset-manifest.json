@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/-toshiro-/static/css/main.00ac9053.css",
+    "main.js": "/-toshiro-/static/js/main.20a0fc4f.js",
+    "static/js/453.ed3810f9.chunk.js": "/-toshiro-/static/js/453.ed3810f9.chunk.js",
+    "static/media/axe.jpg": "/-toshiro-/static/media/axe.79ebe9670779006551c6.jpg",
+    "static/media/download.jpg": "/-toshiro-/static/media/download.3de385b826fbd1ff0a57.jpg",
+    "static/media/cool.jpg": "/-toshiro-/static/media/cool.63e1c30c1a3d6e164fc2.jpg",
+    "static/media/wallpaper.jpg": "/-toshiro-/static/media/wallpaper.1aab14d268925fa24436.jpg",
+    "static/media/rukia.jpg": "/-toshiro-/static/media/rukia.19d540dab60a7825f934.jpg",
+    "static/media/meme.jpg": "/-toshiro-/static/media/meme.fb6c9c582b8b26ec56ac.jpg",
+    "static/media/back.jpg": "/-toshiro-/static/media/back.2fc1a0f6c2001fba6a36.jpg",
+    "static/media/blackboard-hi.gif": "/-toshiro-/static/media/blackboard-hi.e322befc88efbc1f0628.gif",
+    "index.html": "/-toshiro-/index.html",
+    "main.00ac9053.css.map": "/-toshiro-/static/css/main.00ac9053.css.map",
+    "main.20a0fc4f.js.map": "/-toshiro-/static/js/main.20a0fc4f.js.map",
+    "453.ed3810f9.chunk.js.map": "/-toshiro-/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.00ac9053.css",
+    "static/js/main.20a0fc4f.js"
+  ]
+}
