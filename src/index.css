@@ -112,7 +112,7 @@ body {
   font-size: 1.5rem;
 }
 .flax p{
-  font-family: initial;
+  font-family: "Shadows Into Light" , cursive;
     font-size: 1.1rem;
     margin-top: -1rem;
     color: hsl(0, 0%, 30%);
@@ -120,7 +120,7 @@ body {
 .foot{
   margin-top: 4rem;
   
-  font-family:' MV Boli';
+  font-family:"Shadows Into Light" , cursive;
 
   
 }
@@ -271,7 +271,7 @@ body {
   position: relative;
 }
 .veri{
-  font-family:'MV Boli';
+  font-family:"Shadows Into Light" , cursive;
   font-size: 1rem;
   color:black;
   margin-right: 3.5rem;
