@@ -59,7 +59,7 @@ h2{
     gap:2.3rem;
     justify-content: start;
     margin-top: .8rem;
-    margin-left: .2rem;
+    margin-left: .1rem;
 }
 
 .card{
@@ -86,7 +86,7 @@ h2{
 
 .title{
     font-size: .7rem;
-    margin-right: .5rem;
+    margin-right: .1rem;
     
 }
 .create{
@@ -108,7 +108,7 @@ h2{
     font-size: .7rem;
     padding: .4rem .7rem .4rem .7rem;
     border-radius: 7px;
-    margin-top: -2rem;
+    margin-top: -1.2rem;
     margin-left: 3rem;
     border: none;
     background-color: hsl(0, 0%, 90%);
