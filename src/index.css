@@ -98,7 +98,7 @@ body {
 }
 .flax {
   margin-top: -1rem;
-  font-family: unset;
+  
   font-size: 1.9rem;
   display: flex;
   flex-direction: column;
@@ -112,7 +112,7 @@ body {
   font-size: 1.5rem;
 }
 .flax p{
-  font-family: MV Boli;
+  font-family: initial;
     font-size: 1.1rem;
     margin-top: -1rem;
     color: hsl(0, 0%, 30%);

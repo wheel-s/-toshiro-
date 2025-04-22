@@ -20,7 +20,7 @@
     background: hsl(218, 27%, 22%);
     width: 15rem;
     padding: .9rem;
-    height: 1.5rem;
+    height: 1.7rem;
     padding-top: .7rem;
     border-radius: 3px;
     padding-left: -7rem;
@@ -97,7 +97,7 @@
         }
 
         .details{
-            width:14rem;
+            width:16rem;
             
 
         }
